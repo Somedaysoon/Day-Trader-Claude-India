@@ -1,0 +1,37 @@
+{
+  "as_of": "2026-11-26",
+  "companies": [
+    {
+      "ticker": "RELIANCE",
+      "name": "Reliance Industries Limited",
+      "isin": "INE002A01018",
+      "exchange": [
+        "NSE",
+        "BSE"
+      ],
+      "basis": "consolidated",
+      "period_end": "2026-09-30",
+      "rows": [],
+      "source": "NSE Integrated Filing",
+      "company_id": "INE002A01018",
+      "nse_symbol": "RELIANCE",
+      "bse_scrip_code": "500325"
+    },
+    {
+      "ticker": "RELIANCE",
+      "name": "Reliance Industries Limited",
+      "isin": "INE002A01018",
+      "exchange": [
+        "NSE",
+        "BSE"
+      ],
+      "basis": "standalone",
+      "period_end": "2026-09-30",
+      "rows": [],
+      "source": "NSE Integrated Filing",
+      "company_id": "INE002A01018",
+      "nse_symbol": "RELIANCE",
+      "bse_scrip_code": "500325"
+    }
+  ]
+}

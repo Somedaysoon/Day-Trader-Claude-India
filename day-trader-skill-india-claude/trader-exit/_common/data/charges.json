@@ -1,0 +1,15 @@
+{
+  "schema_version": 1,
+  "currency": "INR",
+  "segment": "equity intraday (NSE cash, MIS)",
+  "verified": false,
+  "effective_from": null,
+  "source": "PLACEHOLDER rates from a typical discount-broker schedule, written from memory and NOT checked against any broker's or exchange's current published charges. Put your own broker's numbers in trader/charges.json (same keys) and set verified to true once you have compared them.",
+  "brokerage": {"flat": 20.0, "pct": 0.03, "note": "per executed order: the lower of the flat amount and pct percent of the order value"},
+  "stt_pct_sell": 0.025,
+  "exchange_txn_pct": 0.00297,
+  "sebi_per_crore": 10.0,
+  "stamp_pct_buy": 0.003,
+  "gst_pct": 18.0,
+  "gst_applies_to": ["brokerage", "exchange_txn", "sebi"]
+}

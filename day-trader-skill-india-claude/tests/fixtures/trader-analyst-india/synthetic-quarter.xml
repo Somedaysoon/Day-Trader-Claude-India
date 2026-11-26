@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<xbrli:xbrl xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:ind="http://example.com/ind">
+<xbrli:context id="q"><xbrli:entity><xbrli:identifier scheme="x">TEST</xbrli:identifier></xbrli:entity><xbrli:period><xbrli:startDate>2026-07-01</xbrli:startDate><xbrli:endDate>2026-09-30</xbrli:endDate></xbrli:period></xbrli:context>
+<xbrli:unit id="INR"><xbrli:measure>iso4217:INR</xbrli:measure></xbrli:unit>
+<ind:RevenueFromOperations contextRef="q" unitRef="INR" decimals="0">1000000</ind:RevenueFromOperations>
+<ind:ProfitLossForPeriod contextRef="q" unitRef="INR" decimals="0">100000</ind:ProfitLossForPeriod>
+<ind:DilutedEarningsLossPerShare contextRef="q" unitRef="INR" decimals="2">2.5</ind:DilutedEarningsLossPerShare>
+</xbrli:xbrl>

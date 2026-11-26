@@ -1,0 +1,53 @@
+{
+  "version": 1,
+  "timezone": "Asia/Kolkata",
+  "notes": [
+    "RBI, SEBI and PIB URLs below are official public RSS feeds.",
+    "Copy the exact NSE RSS URLs you want from https://www.nseindia.in/static/rss-feed into the blank url fields below.",
+    "BSE corporate announcements are imported from a CSV downloaded manually from the BSE website; no undocumented BSE API is used."
+  ],
+  "feeds": [
+    {
+      "name": "RBI Press Releases",
+      "publisher": "Reserve Bank of India",
+      "category": "macro",
+      "url": "https://rbi.org.in/pressreleases_rss.xml",
+      "enabled": true
+    },
+    {
+      "name": "RBI Notifications",
+      "publisher": "Reserve Bank of India",
+      "category": "regulatory",
+      "url": "https://rbi.org.in/notifications_rss.xml",
+      "enabled": true
+    },
+    {
+      "name": "SEBI RSS",
+      "publisher": "Securities and Exchange Board of India",
+      "category": "regulatory",
+      "url": "https://www.sebi.gov.in/sebirss.xml",
+      "enabled": true
+    },
+    {
+      "name": "PIB Press Releases",
+      "publisher": "Press Information Bureau",
+      "category": "macro",
+      "url": "https://pib.gov.in/RssMain.aspx?ModId=6&Lang=1&Regid=1",
+      "enabled": true
+    },
+    {
+      "name": "NSE Corporate Announcements",
+      "publisher": "National Stock Exchange of India",
+      "category": "exchange",
+      "url": "",
+      "enabled": true
+    },
+    {
+      "name": "NSE Financial Results",
+      "publisher": "National Stock Exchange of India",
+      "category": "filings",
+      "url": "",
+      "enabled": true
+    }
+  ]
+}

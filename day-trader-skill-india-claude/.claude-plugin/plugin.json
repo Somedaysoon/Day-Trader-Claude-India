@@ -1,0 +1,20 @@
+{
+  "name": "day-trader-skill-india",
+  "description": "NSE day-trading pick tools for Claude: scan the Indian market for setups, time the opening-range entry, plan the stop and target, size the pick to your max loss after charges, and check it against your rules. Free Yahoo data. It picks trades and places no orders.",
+  "version": "2.0.0-india.1",
+  "author": {
+    "name": "India adaptation of Jake Schincariol's day-trader-skill"
+  },
+  "homepage": "https://github.com/Jakeschincariol/day-trader-skill",
+  "repository": "https://github.com/Jakeschincariol/day-trader-skill",
+  "license": "MIT",
+  "keywords": [
+    "claude-code",
+    "claude-skills",
+    "day-trading",
+    "nse",
+    "india",
+    "opening-range-breakout"
+  ],
+  "skills": "./"
+}

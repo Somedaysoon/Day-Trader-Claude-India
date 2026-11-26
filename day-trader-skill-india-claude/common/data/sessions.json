@@ -1,0 +1,31 @@
+{
+  "schema_version": 1,
+  "timezone": "Asia/Kolkata",
+  "utc_offset_minutes": 330,
+  "verified": false,
+  "verified_note": "From broker and news reports of NSE and SEBI circulars plus Kite Connect forum reports of 5-minute candles ending at the 15:10 bar since 3 Aug 2026. The NSE circular texts were not read. Check against NSE before relying on these hours.",
+  "groups": {
+    "cas": "stocks that take part in the closing auction session (reported as the F&O-eligible ones)",
+    "other": "all other stocks"
+  },
+  "profiles": [
+    {
+      "effective_from": "1900-01-01",
+      "pre_open": ["09:00", "09:15"],
+      "continuous": {"cas": ["09:15", "15:30"], "other": ["09:15", "15:30"]},
+      "auction": {}
+    },
+    {
+      "effective_from": "2026-08-03",
+      "pre_open": ["09:00", "09:15"],
+      "continuous": {"cas": ["09:15", "15:15"], "other": ["09:15", "15:30"]},
+      "auction": {"cas": ["15:15", "15:35"]}
+    },
+    {
+      "effective_from": "2026-12-07",
+      "pre_open": ["09:00", "09:15"],
+      "continuous": {"cas": ["09:15", "15:30"], "other": ["09:15", "15:30"]},
+      "auction": {"cas": ["15:30", "15:40"]}
+    }
+  ]
+}

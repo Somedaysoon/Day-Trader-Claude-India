@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "exchange": "NSE",
+  "source": "NSE circular NSE/CD/71962 dated 23 Dec 2025: trading holidays for the calendar year 2026",
+  "verified_on": "2026-11-23",
+  "later_circulars_checked": false,
+  "note": "Holidays added or moved by later circulars are not included. The 2027 list is not published yet; add it here when NSE issues it.",
+  "years_covered": [2026],
+  "holidays": {
+    "2026-01-26": "Republic Day",
+    "2026-02-19": "Chatrapati Shivaji Maharaj Jayanti",
+    "2026-03-03": "Holi",
+    "2026-03-19": "Gudi Padwa",
+    "2026-03-26": "Shri Ram Navami",
+    "2026-03-31": "Shri Mahavir Jayanti",
+    "2026-04-01": "Annual Bank Closing",
+    "2026-04-03": "Good Friday",
+    "2026-04-14": "Dr. Baba Saheb Ambedkar Jayanti",
+    "2026-05-01": "Maharashtra Day / Buddha Pournima",
+    "2026-05-28": "Bakri Id",
+    "2026-06-26": "Muharram",
+    "2026-08-26": "Id-E-Milad",
+    "2026-09-14": "Ganesh Chaturthi",
+    "2026-10-02": "Mahatma Gandhi Jayanti",
+    "2026-10-20": "Dussehra",
+    "2026-11-10": "Diwali-Balipratipada",
+    "2026-11-24": "Prakash Gurpurb Sri Guru Nanak Dev",
+    "2026-12-25": "Christmas"
+  },
+  "weekend_holidays": {
+    "2026-02-15": "Mahashivratri",
+    "2026-03-21": "Id-Ul-Fitr (Ramadan Eid)",
+    "2026-08-15": "Independence Day / Parsi New Year",
+    "2026-11-08": "Diwali Laxmi Pujan"
+  },
+  "special_sessions": [
+    {
+      "date": "2026-11-08",
+      "kind": "muhurat",
+      "hours": null,
+      "strategy": false,
+      "note": "Muhurat trading on a Sunday; NSE notified the timings separately and they are not recorded here. One-hour ceremonial sessions are not used for the strategy."
+    }
+  ]
+}

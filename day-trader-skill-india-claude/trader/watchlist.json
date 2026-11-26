@@ -1,0 +1,10 @@
+{
+  "investors": [
+    {"name": "Vijay Kedia", "aliases": ["Kedia Securities", "Kedia Securities Pvt Ltd"]},
+    {"name": "Rakesh Jhunjhunwala", "aliases": ["Rare Enterprises"], "historical_only": true},
+    {"name": "Rekha Jhunjhunwala", "aliases": []},
+    {"name": "Dolly Khanna", "aliases": ["Rajiv Khanna"]},
+    {"name": "Ashish Kacholia", "aliases": []},
+    {"name": "Mukul Agrawal", "aliases": ["Param Capital"]}
+  ]
+}

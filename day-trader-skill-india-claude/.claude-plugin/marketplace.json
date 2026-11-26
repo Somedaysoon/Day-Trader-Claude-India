@@ -1,0 +1,17 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "day-trader-skill-india",
+  "description": "The Day Trader skill pack for Claude, adapted for the Indian market (NSE)",
+  "owner": {
+    "name": "India adaptation of Jake Schincariol's day-trader-skill"
+  },
+  "plugins": [
+    {
+      "name": "day-trader-skill-india",
+      "description": "Claude skills for picking NSE day trades: a chart scanner, a news monitor, an entry timer, an exit planner, a time machine, a risk check, a budget sizer, price alerts, a results analyst and a disclosures monitor. It places no orders.",
+      "source": "./",
+      "category": "productivity",
+      "homepage": "https://github.com/Jakeschincariol/day-trader-skill"
+    }
+  ]
+}
